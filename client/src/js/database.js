@@ -36,6 +36,7 @@ export const putDb = async (content) => {
 };
 
 // TODO: Add logic for a method that gets all the content from the database
+// NEEDS DATA INSERTED INTO DB 
 export const getDb = async () => {
   console.log('GET data from jate database')
 
@@ -54,7 +55,6 @@ export const getDb = async () => {
   // Get confirmation of the request.
   const result = await request;
   console.log('result.value', result);
-  console.error('getDb not implemented')
   return result;
 }
 
