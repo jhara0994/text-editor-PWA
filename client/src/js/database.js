@@ -20,13 +20,13 @@ export const putDb = async (content) => {
   const jateDb = await openDB('jate', 1)
 
   // create new transaction
-  const tx = jateDb.transaction('jate', "readWrite")
+  const tx = jateDb.transaction('jate', "readwrite")
 
   // Open object store
   const store = tx.objectStore('jate')
 
   // Put method to update content
-  const request = store.put({id: id, content: content})
+  const request = store.put({jate: content})
 
   // Get confirmation request
   const result = await request
