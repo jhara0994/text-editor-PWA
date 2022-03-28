@@ -12,6 +12,8 @@
 
 ## Deployed Link:
 ### https://text-editor-pwa29.herokuapp.com/
+<img width="1427" alt="text-editor" src="https://user-images.githubusercontent.com/92455472/160430374-a6f4a2d6-510d-403d-9e27-b4622d02b6d0.png">
+
 ## Description:
 ### This is a text editor built using progressive web application technology that can be used in the browser or on your local machine through a download.
 ## Installation:
